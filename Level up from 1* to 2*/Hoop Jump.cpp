@@ -6,12 +6,11 @@ int main() {
 	long long int t;
 	cin>>t;
 	while(t--){
-	    int A,B,X;
-	    cin>>A>>B>>X;
-	    int count;
-	    count = (B-A)/X;
-	    cout<<count<<endl;
-	    
+	    long long int n;
+	    cin>>n;
+	    if(n % 2 != 0 || n % 2 == 0){
+	        cout<<(n/2)+1<<endl;
+	    }
 	}
 	return 0;
 }
